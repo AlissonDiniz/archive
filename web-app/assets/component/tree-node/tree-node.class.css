@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/04/2015, 13:31:23
+    Author     : Alisson Diniz
+*/
+
+
+.table-hover.tree-table thead tr th{
+    font-size: 16px;
+    line-height: 36px;
+}
+.table-hover.tree-table thead tr th .search-node{
+    position: absolute;
+    top: -22px;
+    right: 0;
+    width: 400px;
+}
+.table-hover.tree-table thead tr th .search-node .search-cancel{
+    display: none;
+}
+.table-hover.tree-table tbody tr:hover td{
+    background: none;
+}
+.table-hover.tree-table tbody tr.selected td{
+    background: #e4f4ff;
+}
+.table-hover.tree-table tbody tr.selected:hover td{
+    background: #e4f4ff;
+}
+.table-hover.tree-table tbody tr.filtered{
+    display: none;
+}
+.table-hover.tree-table tbody tr td{
+    border-bottom: 1px solid #ddd;
+}
+.table-hover.tree-table tbody tr td:last-of-type, .table-hover.tree-table thead tr th:last-of-type{
+    width: 120px;
+    text-align: center;
+}
+.table-hover.tree-table .line-node.hide{
+    display: none;
+}
+.table-hover.tree-table .line-node input, .table-hover.tree-table .line-node select{
+    margin-top: 10px;
+}
+.table-hover.tree-table .line-node .node .trigger{
+    float: left;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+.table-hover.tree-table .line-node .node .type{
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    margin: 8px 0 0 5px;
+    text-align: center;
+    line-height: 25px;
+    color: #666;
+}
+.table-hover.tree-table .line-node .node .trigger.disabled{
+    visibility: hidden;
+}
+.table-hover.tree-table .line-node .node .trigger.collapse{
+    background-color: #999;
+}
+.table-hover.tree-table .line-node .node .trigger.expand{
+    background-color: #1AB394;
+}
+.table-hover.tree-table .line-node .label{
+    float: left;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+}
+.table-hover.tree-table .line-node .remove-node{
+    width: 100%;
+    text-align: center;
+}
+.table-hover.tree-table .line-node .form-group{
+    top: -6px;
+    margin-bottom: 0;
+}
+.table-hover.tree-table .line-node .form-group .form-control-feedback{
+    top: 10px;
+    right: 10px;
+    display: none;
+}
+.table-hover.tree-table .line-node .form-group.has-error .form-control-feedback{
+    display: block;
+}
+.table-hover.tree-table .line-node .remove-node .trigger{
+    font-size: 25px;
+    width: 32px;
+    height: 32px;
+    margin: 3px 0 3px 0;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #999;
+}
+.table-hover.tree-table .line-node .remove-node .trigger.disabled{
+    background-color: #DADADA;
+}
+.table-hover.tree-table .line-node.new .form-group .form-control-feedback{
+    top: 10px;
+    right: 13px;
+    display: none;
+}
+.table-hover.tree-table .line-node.new .form-group.has-error .form-control-feedback{
+    display: block;
+}
+.table-hover.tree-table .line-node.new .add-node{
+    text-align: center;
+}
+.table-hover.tree-table .line-node.new .add-node .trigger{
+    font-size: 18px;
+    width: 32px;
+    height: 32px;
+    margin: 10px 10px 3px 0;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+.table-hover.tree-table .line-node.new .add-node .trigger.fa-check{
+    background-color: #1AB394;
+}
+.table-hover.tree-table .line-node.new .add-node .trigger.fa-remove{
+    background-color: #d9534f;
+}

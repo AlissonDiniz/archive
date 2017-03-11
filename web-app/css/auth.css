@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/03/2015, 19:51:22
+    Author     : Alisson Diniz
+*/
+
+body, #body-container{
+    background-color: #333338;
+}
+
+.login-wrapper .mainbox{
+    margin: 0 auto;
+    width: 400px;
+}
+
+.login-wrapper .mainbox .panel .panel-heading{
+    height: 50px;
+    background-color: #DADADA;
+}
+
+.login-wrapper .mainbox .panel .panel-heading .panel-title{
+    font-size: 13px;
+    color: #C0003A;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.login-wrapper .mainbox .container-message{
+    margin-top: 10px;
+}
+
+.login-wrapper .mainbox .input-group input, .login-wrapper .mainbox button{
+    margin-top: 1px;
+    height: 45px;
+}
+
+.login-wrapper .btn-primary {
+    background-color: #1AB394;
+    border-color: #1AB394;
+    color: #fff;
+}
+.login-wrapper .btn-primary:hover, .login-wrapper .btn-primary:focus{
+    background-color: #079B7D;
+    border-color: #079B7D;
+    color: #fff;
+}

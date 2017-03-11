@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2015, 21:29:13
+    Author     : Alisson Diniz
+*/
+
+div.ui-dialog.ui-widget{
+    box-shadow: 0 0 15px #666;
+    border-radius: 5px;
+}
+
+div.ui-dialog.ui-widget div.ui-dialog-titlebar{
+    display: none;
+}
+div.ui-dialog.ui-widget div.ui-dialog-content.ui-widget-content{
+    padding-top: 20px;
+}
+div.ui-dialog-buttonpane .ui-dialog-buttonset button.ui-button-text-only{
+    padding: 10px 20px 10px 20px;
+}
+div.ui-dialog-buttonpane .ui-dialog-buttonset button.ui-button-text-only span.ui-button-text{
+    padding: 0;
+}
+div.ui-dialog-buttonpane .ui-dialog-buttonset button:nth-of-type(1){
+  color: #fff;
+  background: #5cb85c;
+  border-color: #4cae4c;
+}
+div.ui-dialog-buttonpane .ui-dialog-buttonset button:nth-of-type(2){
+  color: #fff;
+  background: #d9534f;
+  border-color: #d43f3a;
+}

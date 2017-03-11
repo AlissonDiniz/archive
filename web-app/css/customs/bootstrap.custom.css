@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/03/2015, 21:12:25
+    Author     : Alisson Diniz
+*/
+
+.btn-primary {
+    background-color: #1AB394;
+    border-color: #1AB394;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-color: #079B7D;
+    border-color: #079B7D;
+}
+
+.nav > li > a > i{
+    font-size: 20px;
+    color: #1AB394;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1AB394;
+}
+.nav.nav-pills > li > a{
+    font-size: 14px;
+}
+.nav.nav-pills > li > a > i{
+    font-size: 22px;
+}
+.nav.nav-pills > li > a:hover > i, .nav.nav-pills > li > a:focus > i{
+    text-decoration: none;
+    color: #fff;
+    background-color: #1AB394;
+}
+
+.table{
+    border-collapse: separate;
+}
+.table.table-hover > thead:first-child > tr:first-child > th{
+    border-top: solid #DADADA 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: none;
+    background-color: #ECECEC;
+}
+.table.table-hover thead:first-child > tr:first-child > th:first-of-type{
+    padding-left: 20px;
+    border-left: solid #DADADA 1px;
+    border-radius: 5px 0 0 0;
+}
+.table.table-hover thead:first-child > tr:first-child > th:last-of-type{
+    padding-right: 20px;
+    border-right: solid #DADADA 1px;
+    border-radius: 0 5px 0 0;
+}
+.table thead tr th a{
+    padding-right: 20px;
+    color: #333333;
+}
+.table thead tr th a:hover{
+    text-decoration: none;
+}
+.table thead tr th.sortable a{
+    background-image: url('images/sort.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.table thead tr th.sortable.asc a {
+    background-image: url('images/sort-asc.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.table thead tr th.sortable.desc a {
+    background-image: url('images/sort-desc.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.table.table-hover > tbody > tr > td:first-of-type{
+    padding-left: 20px;
+    border-left: solid #DADADA 1px;
+}
+.table.table-hover > tbody > tr > td:last-of-type{
+    padding-right: 20px;
+    border-right: solid #DADADA 1px;
+}
+.table.table-hover > tbody > tr:last-of-type > td{
+    border-bottom: solid #DADADA 1px;
+}
+.table.table-hover > tbody > tr:last-of-type > td:first-of-type{
+    border-left: solid #DADADA 1px;
+    border-radius: 0 0 0 5px;
+}
+.table.table-hover > tbody > tr:last-of-type > td:last-of-type{
+    border-right: solid #DADADA 1px;
+    border-radius: 0 0 5px 0;
+}
+.table.table-hover tbody tr.link{
+    cursor: pointer;
+}
+.table.table-hover tbody tr.odd{
+    background-color: #f9f9f9;
+}
+
+.pagination{
+    float: right;
+}

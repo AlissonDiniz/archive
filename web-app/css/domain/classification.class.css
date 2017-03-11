@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/03/2015, 23:31:23
+    Author     : Alisson Diniz
+*/
+
+.classification-table.table-hover.tree-table thead tr th{
+    font-size: 16px;
+    line-height: 36px;
+}
+.classification-table.table-hover.tree-table thead tr th button{
+    margin-top: -8px;
+}
+.classification-table.table-hover.tree-table tbody tr td:last-of-type, .table-hover.tree-table thead tr th:last-of-type{
+    width: 120px;
+    text-align: center;
+}
+.classification-table.table-hover.tree-table .line-node input{
+    margin-top: 10px;
+}
+.classification-table.tree-table .line-node.new .form-group .form-control-feedback{
+    top: 10px;
+    right: 13px;
+    display: none;
+}
+.classification-table.tree-table .line-node.new .form-group.has-error .form-control-feedback{
+    display: block;
+}
+.classification-table.tree-table .line-node.new .add-node{
+    text-align: center;
+}
+.classification-table.tree-table .line-node.new .input-zero{
+    float: left;
+    width: 28px;
+    text-align: center;
+    line-height: 0px;
+    padding-top: 13px;
+}
+.classification-table.tree-table .line-node.new .input-zero{
+    float: left;
+    width: 28px;
+    text-align: center;
+}
+.classification-table.tree-table .line-node.new .add-node .trigger{
+    font-size: 18px;
+    width: 32px;
+    height: 32px;
+    margin: 10px 10px 3px 0;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+.classification-table.tree-table .line-node.new .add-node .trigger.fa-check{
+    background-color: #1AB394;
+}
+.classification-table.tree-table .line-node.new .add-node .trigger.fa-remove{
+    background-color: #d9534f;
+}

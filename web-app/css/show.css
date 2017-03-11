@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2015, 22:24:24
+    Author     : Alisson Diniz
+*/
+
+.scaffold-show{
+    margin-top: 20px;
+}
+
+.scaffold-show .property-list{
+    list-style-type: none;
+    padding-left: 3px;
+}
+
+.scaffold-show .property-list li{
+    margin-bottom: 5px;
+}
+
+.scaffold-show .property-list li p{
+    margin-bottom: 0;
+}
+
+.scaffold-show .property-list li p.text-title:after{
+    content: ':';
+}
+
+.scaffold-show .property-list li p.text-primary a{
+    color: #0000FF;
+    text-decoration: underline;
+}

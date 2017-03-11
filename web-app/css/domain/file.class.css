@@ -1,0 +1,280 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/04/2015, 13:31:23
+    Author     : Alisson Diniz
+*/
+
+.wrapper-file-list{
+    min-height: 400px;
+
+}
+.wrapper-file-list .search-cancel{
+    display: none;
+}
+.wrapper-file-list .storage-plant{
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-right: 2px solid #ccc;
+}
+.wrapper-file-list .file-list{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+.wrapper-file-list .file-list tbody tr.filtered{
+    display: none;
+}
+.wrapper-file-list .file-list tbody tr td{
+    line-height: 30px;
+    cursor: pointer;
+}
+.wrapper-file-list .file-list tbody tr td .tag{
+    border: 1px solid #1AB394;
+    background: #1AB394;
+    font-weight: normal;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.wrapper-file-list .file-list tbody tr td .trigger-remove{
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    margin: 3px 0 3px 0;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #999;
+}
+.wrapper-file-list .file-list-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    z-index: 3;
+}
+.wrapper-file-list #searchWrapperStorage .search-wrapper{
+    top: -27px;
+    right: -13px;
+    width: 205px;
+}
+.search-file{
+    margin: 0 0 10px -15px !important;
+    padding-left: 0
+}
+.add-file{
+    float: right;
+    text-align: right;
+    margin-right: -15px;
+    padding-right: 0;
+}
+.add-file-modal,
+.edit-file-modal{
+    display: none;
+    padding: 25px;
+}
+.add-file-modal h3,
+.edit-file-modal h3{
+    margin-bottom: 15px;
+}
+.add-file-modal .table-hover.tree-table thead tr th,
+.edit-file-modal .table-hover.tree-table thead tr th{
+    font-size: 14px;
+    line-height: 14px;
+}
+.add-file-modal .form,
+.edit-file-modal .form{
+    width: 100%;
+}
+.table-hover.tree-table thead tr th{
+    font-size: 14px;
+    line-height: 26px;
+}
+.table-hover.file-table thead tr th{
+    font-size: 14px;
+    line-height: 14px;
+}
+.table-hover.file-table thead tr th:nth-of-type(1),
+.table-hover.file-table tbody tr td:nth-of-type(1){
+    width: 70px
+}
+.table-hover.file-table thead tr th:nth-of-type(2),
+.table-hover.file-table tbody tr td:nth-of-type(2){
+    width: 200px
+}
+.table-hover.file-table thead tr th:nth-of-type(3),
+.table-hover.file-table tbody tr td:nth-of-type(3){
+    width: 80px
+}
+.table-hover.file-table thead tr th:nth-of-type(4),
+.table-hover.file-table tbody tr td:nth-of-type(4){
+    width: 80px
+}
+.table-hover.file-table thead tr th:nth-of-type(5),
+.table-hover.file-table tbody tr td:nth-of-type(5){
+    width: 80px
+}
+.table-hover.file-table thead tr th:nth-of-type(6),
+.table-hover.file-table tbody tr td:nth-of-type(6){
+    width: 160px
+}
+.table-hover.file-table tbody tr td:nth-of-type(8){
+    width: 30px
+}
+.table-hover.file-table thead.override tr th.type{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 6px;
+}
+.table-hover.file-table tbody tr td.code{
+    padding-left: 10px;
+    font-size: 10px;
+}
+.table-hover.file-table tbody tr td.name{
+    line-height: 13px;
+}
+.table-hover.file-table tbody tr td.subject,
+.table-hover.file-table tbody tr td.note,
+.table-hover.file-table tbody tr td.period{
+    line-height: 12px;
+}
+.table-hover.file-table tbody tr td span.tag{
+    font-size: 10px;
+}
+.wrapper-file-list .table-hover.tree-table tbody tr td:last-of-type, .wrapper-file-list .table-hover.tree-table thead tr th:last-of-type,
+.add-file-modal .table-hover.tree-table.classification-table tbody tr td:last-of-type, .add-file-modal .table-hover.tree-table.classification-table thead tr th:last-of-type{
+    width: 100%;
+    text-align: left;
+}
+.wrapper-file-list .table-hover.tree-table .search-storage{
+    float: right;
+    width: 200px;
+    margin-top: -4px;
+}
+.add-file-modal,
+.edit-file-modal{
+    padding: 15px;
+}
+.add-file-modal .buttons .btn ,
+.edit-file-modal .buttons .btn {
+    padding: 10px 20px 10px 20px;
+}
+.add-file-modal .buttons .btn span,
+.edit-file-modal .buttons .btn span{
+    font-size: 16px;
+}
+.add-file-modal .btn-default, .add-file-modal .buttons .btn-default,
+.edit-file-modal .btn-default, .edit-file-modal .buttons .btn-default {
+    background-color: #1AB394;
+    border-color: #1AB394;
+    color: #fff;
+}
+.add-file-modal .btn-default:hover, .add-file-modal .btn-default:focus,
+.edit-file-modal .btn-default:hover, .edit-file-modal .btn-default:focus,
+.add-file-modal .buttons .btn-default:hover, .add-file-modal .buttons .btn-default:focus,
+.edit-file-modal .buttons .btn-default:hover, .edit-file-modal .buttons .btn-default:focus{
+    background-color: #079B7D;
+    border-color: #079B7D;
+    color: #fff;
+}
+.add-file-modal .table-hover.tree-table.classification-table thead tr th:last-of-type{
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.add-file-modal .table-hover.tree-table.classification-table tbody tr td:last-of-type{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+.add-file-modal .table-hover.tree-table.classification-table .line-node .node .trigger{
+    width: 22px;
+    height: 22px;
+    line-height: 20px;
+}
+.add-file-modal .table-hover.tree-table.classification-table .line-node .node .type{
+    margin-top: 4px;
+}
+.add-file-modal .table-hover.tree-table.classification-table .line-node .label{
+    font-size: 13px;
+    line-height: 28px;
+}
+.add-file-modal .classification-container{
+    float: left;
+    width: 100%;
+}
+.add-file-modal .classification-container #searchWrapperClassification .search-wrapper{
+    top: -10px;
+    right: -20px;
+    width: 350px;
+}
+.add-file-modal .classification-container #searchWrapperClassification .search-wrapper .form-control-feedback{
+    top: 0;
+    right: 15px;
+}
+.add-file-modal .classification-container .classification-table-wrapper,
+.add-file-modal .file-container .file-table-wrapper,
+.edit-file-modal .file-container .file-table-wrapper{
+    height: 340px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+.add-file-modal .classification-container .next-button,
+.add-file-modal .file-container .save-button,
+.edit-file-modal .file-container .save-button{
+    float: right;
+    margin: 0 -15px 25px 0;
+}
+.add-file-modal .classification-container .cancel-button,
+.add-file-modal .file-container .previous-button,
+.edit-file-modal .file-container .cancel-button{
+    float: right;
+    margin-right: 10px;
+}
+.add-file-modal .file-container{
+    float: left;
+    width: 100%;
+    display: none; 
+}
+.add-file-modal .file-container .form .code-input,
+.edit-file-modal .file-container .form .code-input{
+    margin-left: -15px;
+}
+.add-file-modal .file-container .form ul.tagit,
+.edit-file-modal .file-container .form ul.tagit{
+    padding: 5px 5px 5px 5px;
+    background: #fafafa;
+}
+.add-file-modal .file-container .form ul.tagit:hover, 
+.add-file-modal .file-container .form ul.tagit:focus,
+.edit-file-modal .file-container .form ul.tagit:hover, 
+.edit-file-modal .file-container .form ul.tagit:focus{
+    background: #fff;
+}
+.add-file-modal .file-container .form ul.tagit li.tagit-choice,
+.edit-file-modal .file-container .form ul.tagit li.tagit-choice {
+    border: 1px solid #1AB394;
+    background: #1AB394;
+    font-weight: normal;
+    color: #fff;
+}
+.add-file-modal .file-container .form ul.tagit li.tagit-choice a,
+.edit-file-modal .file-container .form ul.tagit li.tagit-choice a {
+    color: #fff;
+}
+.add-file-modal .file-container .period,
+.edit-file-modal .file-container .period {
+    margin-left: -15px;
+}

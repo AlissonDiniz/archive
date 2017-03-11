@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/05/2015, 23:05:44
+    Author     : Alisson Diniz
+*/
+
+.form-search{
+    margin-top: 50px;
+}
+.form-search input[type="radio"], .form-search input[type="checkbox"] {
+  margin-top: 2px;
+}
+.form-search ul.tagit{
+    padding: 5px 5px 5px 5px;
+    background: #fafafa;
+}
+.form-search ul.tagit:hover, 
+.form-search ul.tagit:focus{
+    background: #fff;
+}
+.form-search ul.tagit li.tagit-choice {
+    border: 1px solid #1AB394;
+    background: #1AB394;
+    font-weight: normal;
+    color: #fff;
+}
+.form-search ul.tagit li.tagit-choice a {
+    color: #fff;
+}
+.form-search .container-date {
+    padding-left: 0;
+    padding-right: 0;
+}
+.form-search .radio label{
+    margin-right: 15px;
+}

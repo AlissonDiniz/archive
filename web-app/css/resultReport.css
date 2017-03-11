@@ -1,0 +1,169 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/05/2015, 23:05:44
+    Author     : Alisson Diniz
+*/
+
+@font-face {
+    font-family: "museum-font";
+    src:url("fonts/museum-font.eot");
+    src:url("fonts/museum-font.eot?#iefix") format("embedded-opentype"),
+        url("fonts/museum-font.woff") format("woff"),
+        url("fonts/museum-font.ttf") format("truetype"),
+        url("fonts/museum-font.svg#museum-font") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+[data-icon]:before {
+    font-family: "museum-font" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "museum-font" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-museum:before {
+    content: "a";
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.report-wrapper{
+    margin: 0 auto;
+    width: 900px;
+}
+.report-wrapper .header{
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin: 30px 0 40px 0;
+}
+.report-wrapper .header .logo-header{
+    float: left;
+    position: relative;
+    width: 100px;
+    font-size: 60px;
+    color: #1AB394;
+    margin-left: 120px;
+    line-height: 110px;
+}
+.report-wrapper .header .logo-header img{
+    position: absolute;
+    width: 220px;
+    left: -120px;
+}
+.report-wrapper .header h3{
+    float: left;
+    position: relative;
+    margin-left: 300px;
+    color: #666;
+    line-height: 58px;
+}
+.report-wrapper .content{
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.report-wrapper .content .legend{
+    float: left;
+    font-weight: bold;
+}
+.report-wrapper .parameters{
+    float: left; 
+    width: 100%; 
+    text-align: left; 
+    font-size: 10px;
+    margin: -10px 0 20px 0;
+    font-size: 12px;
+}
+.report-wrapper .parameters label{
+    float: left; 
+    width: 100%;
+    margin: 5px;
+}
+.report-wrapper .parameters label .text{
+    font-weight: normal;
+    margin-right: 10px;
+}
+.report-wrapper .parameters label .legend{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.report-wrapper .parameters label .legend:after{
+    content: ':';
+}
+.report-wrapper .table{
+    width: 900px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.report-wrapper .table thead td{
+    text-align: left;
+    font-weight: bold;
+    padding: 8px;
+    color: #000;
+    border-bottom: solid 1px #999999;
+}
+.report-wrapper .table tbody td{
+    text-align: left;
+    font-weight: normal;
+    border-bottom: solid 1px #999999;
+}
+.report-wrapper .table thead td:last-child, .report-wrapper .table tbody th:last-child, .report-wrapper .table tbody td:last-child{
+    border-right: none;    
+}
+.report-wrapper .table thead td.center, .report-wrapper .table tbody td.center{
+    text-align: center;    
+}
+.report-wrapper .table thead td.small, .report-wrapper .table tbody td.small{
+    font-size: 11px;    
+}
+.report-wrapper .table thead tr.even, .report-wrapper .table tbody tr.even{
+    color: #666;   
+}
+.report-wrapper .table thead tr.odd, .report-wrapper .table tbody tr.odd{
+    color: #000;   
+}
+.report-wrapper .footer{
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.report-wrapper .footer .footer-right{
+    float: right;
+    width: 200px;
+    text-align: right;
+    font-size: 12px;
+}
+.report-wrapper .footer .footer-right .print-button{
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 25px;
+}
